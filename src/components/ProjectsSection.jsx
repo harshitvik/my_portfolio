@@ -1,6 +1,6 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, GitHub } from "lucide-react";
 
-// Import images
+// Import images from src
 import ecom from "./images/ecom.png";
 import p1 from "./images/p1.png";
 import lp from "./images/lp.png";
@@ -9,7 +9,8 @@ const projects = [
   {
     id: 1,
     title: "E-Commerce Web Application",
-    description: "A responsive E-Commerce app built with React & Vite, featuring product filtering, cart, login, and scalable UI/UX.",
+    description:
+      "A responsive E-Commerce app built with React & Vite, featuring product filtering, cart, login, and scalable UI/UX.",
     image: ecom,
     tags: ["React.js", "JavaScript", "Typescript"],
     demoUrl: "https://shopi-mart.vercel.app/",
@@ -39,7 +40,7 @@ const projects = [
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
+    <section id="projects" className="py-24 px-4 relative bg-gray-50">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           Featured <span className="text-primary">Projects</span>
@@ -54,7 +55,7 @@ export const ProjectsSection = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+              className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
             >
               <div className="h-48 overflow-hidden">
                 <img
@@ -87,7 +88,7 @@ export const ProjectsSection = () => {
                       href={project.demoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="text-gray-700 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
                     </a>
@@ -95,9 +96,9 @@ export const ProjectsSection = () => {
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      className="text-gray-700 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <GitHub size={20} />
                     </a>
                   </div>
                 </div>
@@ -108,7 +109,7 @@ export const ProjectsSection = () => {
 
         <div className="text-center mt-12">
           <a
-            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            className="cosmic-button w-fit flex items-center mx-auto gap-2 bg-primary text-white px-4 py-2 rounded hover:bg-primary-dark transition-colors duration-300"
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/harshitvik"
