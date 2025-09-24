@@ -1,4 +1,5 @@
-import { ArrowRight, ExternalLink, GitHub } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 // Import images from src
 import ecom from "./images/ecom.png";
@@ -98,7 +99,7 @@ export const ProjectsSection = () => {
                       rel="noopener noreferrer"
                       className="text-gray-700 hover:text-primary transition-colors duration-300"
                     >
-                      <GitHub size={20} />
+                      <FaGithub size={20} />
                     </a>
                   </div>
                 </div>
