@@ -97,7 +97,7 @@ export const ProjectsSection = () => {
                       rel="noopener noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <ExternalLink size={20} />
+                      <Github size={20} />
                     </a>
                   </div>
                 </div>
