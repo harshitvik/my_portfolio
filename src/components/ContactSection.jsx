@@ -1,4 +1,5 @@
 import {
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -103,7 +104,7 @@ export const ContactSection = () => {
                   <Instagram />
                 </a> */}
                 <a href="https://github.com/harshitvik" target="_blank">
-                <img className="w-7 h-7 hover:cursor-pointer transition-transform duration-300" src="src/components/images/github-mark-c791e9551fe4/github-mark/github-mark-white.svg"></img>
+                  <Github />
                 </a>
               </div>
             </div>
