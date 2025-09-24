@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, GitHub } from "lucide-react";
+import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 // Import images from src
 import ecom from "./images/ecom.png";
@@ -98,7 +98,7 @@ export const ProjectsSection = () => {
                       rel="noopener noreferrer"
                       className="text-gray-700 hover:text-primary transition-colors duration-300"
                     >
-                      <GitHub size={20} />
+                      <Github size={20} />
                     </a>
                   </div>
                 </div>
