@@ -22,8 +22,8 @@ const projects = [
       "Built a responsive React portfolio with reusable components, animations, smooth navigation, and optimized performance for an engaging user experience.",
     image: p1,
     tags: ["React.js", "Tailwind CSS", "Radix UI"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://my-portfolio-ten-neon-48.vercel.app/",
+    githubUrl: "https://github.com/harshitvik/my_portfolio",
   },
   {
     id: 3,
